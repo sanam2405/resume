@@ -1,0 +1,498 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% https://www.overleaf.com/project/636c022f35762b6bbe5d9fb4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks, breaklinks, urlcolor=Blue, linkcolor=Blue}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Manas Pratim}{Biswas }{
+\href{mailto:manaspb2405@gmail.com}{manaspb2405@gmail.com} | +91-8942981600 | \href{https://manaspratimbiswas.com/}{manaspratimbiswas.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\sectionsep
+
+\subsection{Jadavpur University}
+\descript{BE in Information Technology}
+\location{2020-2024 | Kolkata, India}
+\location{CGPA : 8.6/10}
+\sectionsep
+
+\subsection{RKMV Narendrapur}
+\descript{WBCHSE Science}
+\location{2018-2020 | Kolkata, India}
+\location{Percentage : 97.4}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Expertise
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Expertise}
+% Machine Learning \\
+% Artificial Intelligence \\
+% Deep Learning \\
+% Data Science \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\sectionsep
+
+% \subsection{Undergraduate}
+Data Structures and Algorithms \\
+Object Oriented Programming \\
+Object Oriented Systems \\
+Database Management Systems \\
+Operating Systems \\
+% Computer Networks \\
+% Artificial Intelligence \\
+% Computer Networks\\
+% Computer Graphics \\
+% Software Engineering \\
+Discrete Mathematics \& Statistics
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\sectionsep
+
+\subsection{Programming Languages}
+C/C++ \textbullet{} Java \textbullet{} Python \textbullet{} JavaScript \\
+TypeScript \textbullet{} SQL \textbullet{} Markdown \textbullet{}Shell
+
+\sectionsep
+
+\subsection{Tools \& Technologies}
+Git \textbullet{} GitHub Actions \textbullet{} AWS \textbullet{} Render  \\ 
+Firebase \textbullet{}  Docker   \textbullet{} Parcel \textbullet{} Vite 
+
+\sectionsep
+
+\subsection{Frameworks \& Libraries}
+% STL \textbullet{} NumPy \textbullet{} pandas  \textbullet{} Matplotlib \\
+% seaborn \textbullet{} scikit-learn   \textbullet{} Boto3 \\
+% Google Maps and Directions API 
+
+STL \textbullet{} Boto3 \textbullet{} Bootstrap \textbullet{} MUI \textbullet{} React\\
+Express \textbullet{} Node.js \textbullet{} Socket.IO \textbullet{} FastAPI\\
+NumPy \textbullet{} Pandas \textbullet{} Seaborn \textbullet{} Matplotlib \\
+scikit-learn \textbullet{} Google Maps API \textbullet{} REST API
+
+
+\sectionsep
+
+\subsection{Databases}
+MySQL \textbullet{} PostgreSQL \textbullet{}  MongoDB  \\
+Mongoose \textbullet{}  Prisma \textbullet{} Redis
+
+\sectionsep
+
+\subsection{Operating Systems}
+macOS \textbullet{}   Unix/Linux \textbullet{} Windows
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+\section{Links} 
+\sectionsep
+GitHub:// \href{https://github.com/sanam2405}{\bf sanam2405} \\
+LinkedIn://  \href{https://www.linkedin.com/in/manas-pratim-biswas/}{\bf manaspratimbiswas} \\
+LeetCode:// \href{https://leetcode.com/naxal/}{\bf naxal} \\
+Codeforces://  \href{https://codeforces.com/profile/naxal}{\bf naxal} \\
+CodeChef://  \href{https://www.codechef.com/users/sanam24}{\bf sanam24} \\
+AtCoder://  \href{https://atcoder.jp/users/sanam24}{\bf sanam24} \\
+StopStalk:// \href{https://www.stopstalk.com/user/profile/sanam24}{\bf sanam24} \\
+Portfolio:// \href{https://sanam.live/}{\bf sanam.live}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\sectionsep
+
+\runsubsection{CERN }
+\descript{| \textbf{Google Summer of Code Contributor}}
+\location{May 2023 - November 2023 | Technology : \textbf{Python} \textbullet{} \textbf{Profiling} \textbullet{} \textbf{ML}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\sectionsep
+\item Contributed to \textbf{GSoC at \href{https://github.com/sanam2405/SoftwareEnergyCost}{CERN-HSF}}.\textbf{Estimated the energy cost} of a \textbf{high throughput research software} - \textbf{Baler} used for compression of scientific data 
+\item Monitored, visualized and accelerated Baler's data compression, reducing \textbf{CPU \& Wall Clock time} by \textbf{20\%} through \textbf{Deterministic \& Non-Deterministic Profiling} enhancements using \textbf{cProfile}, \textbf{pyinstruments}, \textbf{matplotlib} and \textbf{seaborn}
+\item Achieved an \textbf{18\% } reduction in \textbf{power consumption} and \textbf{CO\textsubscript{2} Emissions}  via \textbf{identifying bottlenecks }using \textbf{powermetrics}, \textbf{influxdb}, \textbf{scalene} and \textbf{codecarbon} 
+% \item Optimized Baler's \textbf{performance} and \textbf{energy efficiency} by \textbf{15\%} through the integration of \textbf{JIT Numba} and \textbf{Automatic Mixed Precision Training} techniques
+
+
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Razorpay}
+\descript{| \textbf{Software Development Engineer Intern}}
+\location{June 2023 - August 2023 | Technology : \textbf{Python} \textbullet{} \textbf{SQL} \textbullet{} \textbf{AWS} \textbullet{} \textbf{Docker}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked with the \textbf{DevSecOps} team at \href{https://github.com/sanam2405/KnowledgeTransfer}{\textbf{Razorpay} } as a \textbf{SWE Intern}
+\item Reduced \textbf{AWS issue remediation time} by \textbf{15\%}, automating \textbf{Pingsafe} fixes on \textbf{IAM}, \textbf{ELB}, \textbf{KMS}, \textbf{DynamoDB} via a \textbf{single cross-account AWS Lambda function}
+\item Minimized \textbf{security vulnerabilities} by \textbf{20\%}, scanning all \textbf{Spinnaker pipeline stages} that improved the \textbf{CI/CD} process by saving \textbf{10 hours weekly} 
+\item Supervised and tailored the migration of \textbf{5 dashboards} with \textbf{70+ charts} from \textbf{Looker} to \textbf{Superset} via \textbf{complex SQL queries} from the Razorpay data lake
+\end{tightemize}
+% \sectionsep
+
+
+
+
+% \runsubsection{DRDO}
+% \descript{| Research Intern}
+% \location{December 2022 - January 2023 | Delhi, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Worked in the \textbf{SAG} unit of \textbf{DRDO}.  
+% \item Developed a parsing tool for parsing \textbf{Apache} and \textbf{Nginx} web server's configuration file for a software related to \textbf{Network Security} and \textbf{Cryptography}
+% \end{tightemize}
+% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+\sectionsep
+\section{Project}
+\sectionsep
+
+\runsubsection{Privacy Network}
+\descript{| MERN, TypeScript, Socket.IO, PostgreSQL PostGIS, Redis, \& Docker}
+\location{November 2023 - Present | Kolkata, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item  Developed a web-app for a \href{https://ieeexplore.ieee.org/abstract/document/9288801}{\textbf{\textit{Privacy-Preserving Efficient Location-Sharing Scheme for Mobile Online Social Network Applications}} } \\
+\item Added robust \textbf{authentication} and \textbf{authorization }functionalities for seamless and highly secure Sign-up, Login, and Logout activities \\
+\item Integrated \textbf{Socket.IO} for real-time location sharing based on privacy filters and \textbf{react-google-maps/api} to render live locations on the map\\
+
+\item Used \textbf{PostGIS} for quering user location based on \textbf{gender}, \textbf{age} and \textbf{college} \\
+\item  Engineered \textbf{scalability and consistency} with \textbf{Docker} \\
+\sectionsep
+\href{https://github.com/sanam2405/PrivacyNetwork}{\textbf{CODE |} }
+\href{https://manaspratimbiswas.com/PrivacyNetwork/}{\textbf{LIVE}}
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Memecache}
+\descript{| C++ Standard Template Library \& Design Patterns}
+\location{February 2024 - March 2024 | Kolkata, India}
+\vspace{\topsep}
+\begin{tightemize} 
+\sectionsep
+\item Developed a \textbf{minimal}, \textbf{thread-safe}, \textbf{in-memory caching library} for general use
+\item Currently supports \textit{\textbf{FIFO, LIFO and LRU}} cache eviction policies and can also extend \textit{custom cache eviction policies}
+  
+\sectionsep
+\href{https://github.com/sanam2405/memecache}{\textbf{CODE |}}
+\href{https://manaspratimbiswas.com/memecache/}{\textbf{LIVE}}
+\end{tightemize}
+\sectionsep
+
+% \runsubsection{BonVoyage}
+% \descript{| VanillaJS, NodeJS, ExpressJS \& Google Maps API}
+% \location{June 2023 - August 2023 | Kolkata, India}
+% \vspace{\topsep}
+% \begin{tightemize} 
+% \sectionsep
+% \item Developed a web-app for the \textbf{self-sufficient} and \textbf{self-reliant navigation} of users integrating \textbf{tourism} and \textbf{infotainment} under one hood \\
+% \item Used \textbf{HTML} and \textbf{CSS} to create the interface and \textbf{VanillaJS} with \textbf{Google Maps API} for\textbf{dynamic rendering} of contents using \textbf{DOM-manipulation} and implemented \textbf{geo-navigation} from scratch \\
+% % \item Designed and implemented a responsive \textbf{placard} feature to display detailed information about the currently selected entity \\
+% % \item Orchestrated\textbf{ MongoDB }and \textbf{PostgreSQL} databases with secure \textbf{user authentication and authorization} using \textbf{Firebase }and \textbf{JWT}
+% % \item Implemented \textbf{Twilio} for\textbf{instant SMS alerts} for notifying users  
+% \sectionsep
+% \href{https://github.com/sanam2405/BonVoyage}{\textbf{CODE |}}
+% \href{https://bonvoyage.onrender.com/}{\textbf{LIVE}}
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{T20 Innings Insight}
+% \descript{| Python \& Scikit-learn}
+% \location{November 2022 | Kolkata, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item  Developed an IPL match winner predictor using \textbf{logistic regression}
+% \item Used \textbf{Pandas, NumPy, Scikit-Learn, Matplotlib} to preprocess and analyze the IPL dataset
+% \item Processed over \textbf{0.1 million+ past deliveries} and data from \textbf{700+} matches, achieving an accuracy rate of \textbf{81\%} in the predictive model
+% \item Utilized \textbf{Streamlit} to deploy the application with an user-friendly user interface \\
+% \sectionsep
+% \href{https://github.com/sanam2405/IPLWinnerPredictor}{\textbf{CODE  |} }
+% \href{https://sanam2405-iplwinnerpredictor-app-g4nnh4.streamlit.app/}{\textbf{LIVE}}
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Aqualink}
+% \descript{| June 2023 - Present }
+% % \location{June 2023 - Present | Kolkata, India}
+% \location{TypeScript, MERN, Redux, PostgreSQL, PostGIS, GeoJSON, Google Maps API Socket.IO, Redis, Arduino, Sensors, ARIMA, Twilio, Firebase, Docker \& CI/CD}
+% \vspace{\topsep}
+% \begin{tightemize} 
+% \sectionsep
+% \item An end-to-end \textbf{full-stack application} for \textbf{water supply management system} with \textbf{React}, \textbf{Node.js}, and \textbf{Express} along with \textbf{anomaly detection and forecasting} with \textbf{Arduino}, \textbf{Sensors} and \textbf{Supervised Machine Learning}
+% \item Integrated advanced \textbf{geospatial features} with\textbf{ PostGIS},\textbf{ GeoJSON}, and \textbf{Redis caching } that networked accurate mapping and swift data retrieval
+% \item Orchestrated\textbf{ MongoDB }and \textbf{PostgreSQL} databases with secure \textbf{user authentication and authorization} using \textbf{Firebase }and \textbf{JWT}
+% \item Utilized \textbf{Google Maps API} for dynamic water pipeline visualization, enhancing the \textbf{UI/UX} and better user engagement
+% \item Assembled \textbf{microcontrollers} and \textbf{AutoRegressive Integrated Moving Average} \textbf{(ARIMA)} model for \textbf{real-time water flow monitoring} and \textbf{anomaly detection}
+% \item Implemented \textbf{Twilio} for\textbf{instant SMS alerts}, notifying users of critical water-related issues 
+% \item  Engineered \textbf{scalability and consistency} with \textbf{Docker}, streamlined by efficient \textbf{CI/CD pipelines} for \textbf{automated testing and deployment} using \textbf{GitHub Actions} \\
+% \sectionsep
+% \href{https://github.com/sanam2405/BonVoyage}{\textbf{CODE |}}
+% \href{https://bonvoyage.onrender.com/}{\textbf{LIVE}}
+% \end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+2023         & \textbf{LeetCode Guardian} & \textbf{Rated 2205} - Top \textbf{1\%} globally \\
+2022         & \textbf{Summer Scholar}    & Amazon Machine Learning Summer School\\
+% 2021	     & \textbf{Codeforces Pupil} & \textbf{Rated 1280}\\
+% 2020	     & \textbf{99.2 Percentile}   & All India Joint Entrance Examination Mains\\
+% 2020	     & \textbf{235 General Merit Rank}  & West Bengal Joint Entrance Examination\\
+% 2018	     & \textbf{Junior Scholar}  & Jagadis Bose National Science Talent Search \\
+\end{tabular}
+\sectionsep
+
+% \runsubsection{Ansys}
+% \descript{| Software Development Engineer Intern}
+% \location{October 2022 - January 2023 | Remote}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Worked in the Semiconductor Business Unit. Developed code in \textbf{C++} for the products \textbf{Ansys-RedHawkSC} and \textbf{Ansys Totem}
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Jadavpur University}
+% \descript{| Undergraduate Research Intern }
+% \location{August 2022 - September 2022 | Kolkata, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Worked under \textbf{\href{https://scholar.google.co.in/citations?user=LctgJHoAAAAJ&hl=en}{Prof. Pawan Kumar Singh}}
+% \item Researched in the domain of \textbf{Image Processing} and \textbf{Image Classification}
+% \item Designed \textbf{Machine Learning} models such as \textbf{CNN} to classify fruit quality into different classes 
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Amazon}
+% \descript{| Machine Learning Summer School Apprentice}
+% \location{July 2022 | Remote}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Attended Workshop and Boot-Camp delivered by Amazon Scientists on various topics of \textbf{\href{https://drive.google.com/file/d/1iWtfRM28Z2kyk3cUWDaaoNGhdDuhOj37/view?usp=share_link}{Machine Learning}}
+% \item Topics that were covered within a span of one month includes -  \textbf{Supervised Learning}, \textbf{Deep Neural Networks}, \textbf{Dimensionality Reduction}, \textbf{Unsupervised Learning}, \textbf{Probabilistic Graphical Models}, \textbf{Sequential Learning}, \textbf{Causal Inference} and \textbf{Reinforcement Learning}.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Calcutta University}
+% \descript{| Summer Research Intern }
+% \location{May 2022 - July 2022 | Kolkata, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Researched in the domain of \textbf{\href{https://drive.google.com/file/d/1_bC3rPu6USnv-XPgm3CLfavCQxJ97Lah/view}{Waterinformatics}}
+% % \item Worked under \textbf{\href{https://sites.google.com/caluniv.ac.in/amlanc-org/}{Prof. Amlan Chakrabarti}} and \textbf{\href{https://scholar.google.co.in/citations?user=HYjc_2wAAAAJ&hl=en}{DST Women Scientist Dola Gupta Bhattacharjee}}
+% \item Designed \textbf{IoT} based prototype to detect water leakage and measure water parameters using \textbf{sensors} and \textbf{micro-controllers}
+% \item Forecasted data to cloud based platform \textbf{ThingSpeak} for further analytics using Python for real-time measurement of water usage and detect possible leakage.
+% \item Developed Machine Learning model \textbf{ARIMA} to predict future water consumption
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{AlgoZenith}
+% \descript{| Content Developer Intern }
+% \location{September 2021 – March 2022 | Remote}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Developed content for the platform AlgoZenith which prepares students for online assessments and coding interviews of top Product-Based Companies
+% \item Reviewed existing problems and created editorials for over \textbf{200} coding and aptitude problems 
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Freelance}
+% \descript{| Web Content Writer }
+% \location{August 2020 – May 2022 | Kolkata, India}
+% \begin{tightemize}
+% \item Created more than \textbf{25} web contents and blogs
+% \item Developed contents on various niches such as tutorials, gaming, software troubleshooting and product review of various electronic gadgets
+% \end{tightemize}
+% \sectionsep
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     PROJECTS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Projects}
+
+% \runsubsection{Diabetes Prediction System}
+% \descript{| Python \& Scikit-learn}
+% \location{July 2022 | Kolkata, India}
+%  Created a diabetes prediction system using support vector machine algorithm which predicts if a person is diabetic or not based on various parameters. Deployed the project using streamlit\\
+% \href{https://github.com/sanam2405/DiabetesPredictionSystem}{CODE  | }
+% \href{https://sanam2405-diabetespredictionsystem-prediction-system-app-sb8ciu.streamlitapp.com/}{LIVE  | }
+% \href{https://www.youtube.com/watch?v=pL4PALVEY-Q}{DEMO}
+% \sectionsep
+
+% \runsubsection{Weather CLI}
+% \descript{| Python}
+% \location{July 2022 | Kolkata, India}
+%  Created a command-line interface that uses OpenWeather API to fetch the weather information of the city given as an input by the user \\
+% \href{https://github.com/sanam2405/WeatherCLI}{CODE  | }
+% \href{https://www.youtube.com/watch?v=JdIFgz0EtsU}{DEMO}
+% \sectionsep
+
+
+% \runsubsection{Visual Sudoku Solver}
+% \descript{| Python \& Pygame}
+% \location{June 2022 | Kolkata, India}
+%  Created a sudoku solving application. Used Pygame library and backtracking algorithm to solve a given sudoku board. Slowed down the rendering time of the board to create a better visualisation of the backtracking algorithm\\
+% \href{https://github.com/sanam2405/VisualSudokuSolver}{CODE  | }
+% \href{https://www.youtube.com/watch?v=smR6sC79fKM}{DEMO}
+% \sectionsep
+
+% \runsubsection{Snake Game}
+% \descript{| Java \& JavaSwing}
+% \location{May 2022 | Kolkata, India}
+%  Created a clone of the popular snake game using Java and JavaSwing. Used JavaSwing libraries and basic Java programming to create a dynamic and easy to play snake game \\
+% \href{https://github.com/sanam2405/SnakeGame}{CODE  | }
+% \href{https://www.youtube.com/watch?v=Z8SuLXVRZ3M}{DEMO}
+% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Achievements} 
+% \begin{tabular}{rll}
+% 2022         & Selected in \textbf{Amazon Machine Learning Summer School} \\
+% \end{tabular}
+% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS and RANKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards and Ranks} 
+% \begin{tabular}{rll}
+% 2022         & Summer Scholar   &Amazon Machine Learning Summer School\\
+% 2020	     & 99.2 Percentile  & JEE MAINS\\
+% 2020	     & 235 General Merit Rank  & WBJEE\\
+% 2018	     & Junior Scholar  & Jagadis Bose National Science Talent Search \\
+% \end{tabular}
+% \sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     PUBLICATIONS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
